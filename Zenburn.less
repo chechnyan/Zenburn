@@ -1,0 +1,96 @@
+@background: #404040;
+@foreground: #f6f3e8;
+
+/* Code Styling */
+
+.CodeMirror, .CodeMirror-scroll {
+    background-color: @background;
+    color: @foreground;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: #505050;
+}
+&.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+    box-shadow: inset 15px 0 0 0 #000;
+}
+
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: #505050;
+        color: #fff;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: #767676;
+    }
+}
+.cm-atom{color:#cc9495}
+.cm-attribute{color:#d6d6d6}
+.cm-string{color:#C89191}
+.cm-def{color:#9B859D}
+.cm-hr {color: #d68686}
+.cm-number{color: #d68686}
+.cm-property {color: #d6d6d6}
+.cm-operator{color:#9F9D6D}
+.cm-variable-2{color:#CEDF99}
+.cm-meta{color:#D6D7AF}
+.cm-variable, .cm-variable-3,.cm-bracket {color: @foreground;}
+.cm-comment {color: #7F9F7F}
+.cm-error, .cm-minus {color: #dc322f}
+.cm-header {color: #d85896}
+.cm-link {color: #b77fdb; text-decoration: none;}
+.cm-rangeinfo {color: #6c71c4}
+.cm-keyword{color:#DFC47D}
+.cm-builtin, .cm-quote {color: #D6D7AF}
+.cm-qualifier{color:#9B703E}
+.cm-tag{color:#fed6af}
+
+
+/* Extra CSS */
+
+.CodeMirror.find-highlighting div.CodeMirror-selected,
+.CodeMirror .CodeMirror.find-highlighting div.CodeMirror-selected {
+    background: red;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #fff !important;
+}
+
+.CodeMirror-gutters {
+    background-color: @background;
+    border-right: none;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: #c0c0c0;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background: #333f48;
+}
+.CodeMirror-focused .CodeMirror-selected {
+    background: #6a6a6a;
+}
+
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+    /* Ensure visibility against gray inline editor background */
+    background-color: #bcbcbc;
+    color: @foreground !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid #fff;
+}
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: @background;
+}
+
+#image-holder {
+    color: @foreground;
+}
