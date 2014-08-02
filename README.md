@@ -7,4 +7,4 @@ For more themes and install instructions see the [Brackets Themes website](http:
 
 
 
-![envy theme js](https://github.com/Brackets-Themes/Envy/blob/master/envy-screenshot-js.png)
+![Zenburn php](https://github.com/chechnyan/Zenburn/blob/master/screenshot.PNG)
