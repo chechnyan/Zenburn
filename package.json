@@ -3,7 +3,7 @@
     "title": "Zenburn Theme",
     "description": "zenburn theme for brackets Dark low contrast color themes originally designed for Vim",
     "homepage": "https://github.com/chechnyan/Zenburn",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "jafar alshshani <chechnyan@inbox.com> ",
     "license": "MIT",
     "theme": {
