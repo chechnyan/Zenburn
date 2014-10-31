@@ -55,7 +55,11 @@
 }
 
 .CodeMirror-cursor {
-    border-left: 1px solid #fff !important;
+    border-left: 1px solid #fff;
+}
+.cm-keymap-fat-cursor .CodeMirror-cursor {
+    border-left: none;
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .CodeMirror-gutters {
